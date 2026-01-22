@@ -1,0 +1,40 @@
+{
+  "SelfContained_ComplexWorkflow.itemCount": 10,
+  "SelfContained_ComplexWorkflow.processingMode": "standard",
+  "SelfContained_ComplexWorkflow.chunkSize": 100,
+  "SelfContained_ComplexWorkflow.enableQC": true,
+  "SelfContained_ComplexWorkflow.batchOfSamples": [
+    {
+      "sampleName": "Sample001",
+      "sampleId": "ID-A001",
+      "processingGroup": "GroupA",
+      "analysisType": "TypeAlpha",
+      "dataSize": 1000,
+      "categories": ["category1", "category2", "category3"]
+    },
+    {
+      "sampleName": "Sample002",
+      "sampleId": "ID-A002",
+      "processingGroup": "GroupA",
+      "analysisType": "TypeBeta",
+      "dataSize": 1500,
+      "categories": ["category1", "category4"]
+    },
+    {
+      "sampleName": "Sample003",
+      "sampleId": "ID-B001",
+      "processingGroup": "GroupB",
+      "analysisType": "TypeAlpha",
+      "dataSize": 2000,
+      "categories": ["category2", "category3", "category5"]
+    },
+    {
+      "sampleName": "Sample004",
+      "sampleId": "ID-B002",
+      "processingGroup": "GroupB",
+      "analysisType": "TypeGamma",
+      "dataSize": 1200,
+      "categories": ["category1", "category2", "category4", "category5"]
+    }
+  ]
+}
