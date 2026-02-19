@@ -1,0 +1,7 @@
+{
+  "RNASeqPipeline.sample_name": "test_sample",
+  "RNASeqPipeline.num_reads": 1000,
+  "RNASeqPipeline.read_length": 100,
+  "RNASeqPipeline.quality_threshold": 30,
+  "RNASeqPipeline.num_threads": 2
+}
